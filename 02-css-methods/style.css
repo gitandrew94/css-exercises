@@ -1,6 +1,8 @@
 .odd-elements {
-    background-color: rgb(255,192,203);
-    font-family: Verdana, DejaVu Sans, sans-serif;
+    /* Changed rgb values to match solution */
+    background-color: rgb(255, 167, 177);
+    /* Added "" to DejaVu Sans to match solution */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #second-element {
@@ -8,12 +10,13 @@
     font-size: 36px;
 }
 
-#third-element,
-#fourth-element {
+/* Changed selectors to match changes made to Number 3/4 in index.html */
+.adjust-font-size {
     font-size: 24px;
 }
 
 #fourth-element {
-    background-color: hsl(140, 100%, 65%);
+    /* Changed hsl values to match solution */
+    background-color: hsl(120, 100%, 75%);
     font-weight: bold;
 }
